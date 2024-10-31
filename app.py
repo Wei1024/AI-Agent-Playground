@@ -1,6 +1,6 @@
 # streamlit_app.py
 import streamlit as st
-from agent import get_agent_response, parse_agent_response
+from source.agent import get_agent_response, parse_agent_response
 
 st.title("Agentic AI Chatbot")
 
